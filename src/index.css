@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-weight: 300;
+  font-size: 2rem;
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+}
+
+h1, h2{ 
+  font-weight: 300;
 }
 
 code {
