@@ -1,0 +1,50 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.profile-background {
+    background-image: url(https://www.bluecircuits.com.br/images/banner.jpg);
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 50%; 
+    background-repeat: no-repeat; 
+}
+
+div {
+    display: block;
+}
+
+.picture {
+    margin-top: -70px;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    border: 5px solid #fff;
+}
+
+.name {
+    display: block;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.description {
+    display: block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.349);
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .hero-background {
+        height: 220px;
+    }
+}
